@@ -30,5 +30,10 @@ public class pruebaCalculadora {
         calculadora = new Calculadora(2, 3, "/");
         calculadora.realizarOperacion();
         System.out.println("Division: "+calculadora.getResultado());
+
+        //Modulo
+        Calculadora calcModulo = new Calculadora(10, 3, "%");
+        calcModulo.realizarOperacion();
+        System.out.println("Módulo (10 % 3): " + calcModulo.getResultado());
     }
 }
